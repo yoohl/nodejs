@@ -1,0 +1,24 @@
+GET http://localhost:8080/todo
+
+###
+
+POST http://localhost:8080/todo
+Content-Type: application/json
+
+{
+  "content": "얏호!!"
+}
+
+
+###
+
+PUT http://localhost:8080/todo/5afbc7095db375492b7530a1
+Content-Type: application/json
+
+{
+  "content": "수정합니다."
+}
+
+###
+
+DELETE http://localhost:8080/todo
